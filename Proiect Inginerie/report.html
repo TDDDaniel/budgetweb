@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reports</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <table class="tableStatistics">
+      <tr>
+        <td class="statisticMenu">
+          <h1 class="logo1">BudgetWeb</h1>
+          <button id="reports">Reports</button>
+          <button id="bugetulTau">Venituri si cheltuieli</button>
+          <button id="economiGeneral">Cum sa iti cresti economiile</button>
+        </td>
+        <td class="statisticCentre">
+          <div class="topMeniu">
+            <h2 class="bugetTitle">Raport venituri si cheltuieli</h2>
+          </div>
+          <table class="table-venituri-cheltuieli">
+            <tr>
+              <td>
+                <div>
+                  <canvas id="myChart"></canvas>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <canvas id="myChart1"></canvas>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <script src="statistic.js"></script>
+    <script>
+      const bugetulTau = document.getElementById("bugetulTau");
+      const economiGeneral = document.getElementById("economiGeneral");
+
+      bugetulTau.addEventListener("click", function () {
+        window.location = "statistic.html";
+      });
+
+      economiGeneral.addEventListener("click", function () {
+        window.location = "cumFunctioneaza.html";
+      });
+      /*const ctx = document.getElementById("myChart");
+
+      new Chart(ctx, {
+        type: "doughnut",
+        data: {
+          labels: ["Luna", "An"],
+          datasets: [
+            {
+              label: "# of Votes",
+              data: [],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });*/
+    </script>
+  </body>
+</html>

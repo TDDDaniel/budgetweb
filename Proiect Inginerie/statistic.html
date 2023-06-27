@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Statistics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table class="tableStatistics">
+      <tr>
+        <td class="statisticMenu">
+          <a href="index.html" style="text-decoration: none"
+            ><h1 class="logo1">BudgetWeb</h1></a
+          >
+          <button id="reports">Reports</button>
+          <button id="bugetulTau">Venituri si cheltuieli</button>
+          <button id="economiGeneral">Cum sa iti cresti economiile</button>
+        </td>
+        <td class="statisticCentre">
+          <div class="topMeniu">
+            <h2 class="bugetTitle" id="bugetTitle">Venituri si cheltuieli</h2>
+          </div>
+          <table class="table-venituri-cheltuieli" id="myDiv">
+            <tr>
+              <td>
+                <div class="venituri">
+                  <h3>Venituri</h3>
+                  <label for="luna1">Ianuarie</label>
+                  <input type="number" name="luna1" id="luna1" />
+                  <br />
+                  <label for="luna2">Februarie</label>
+                  <input type="number" name="luna2" id="luna2" />
+                  <br />
+                  <label for="luna3">Martie</label>
+                  <input type="number" name="luna3" id="luna3" />
+                  <br />
+                  <label for="luna4">Aprilie</label>
+                  <input type="number" name="luna4" id="luna4" />
+                  <br />
+                  <label for="luna5">Mai</label>
+                  <input type="number" name="luna5" id="luna5" />
+                  <br />
+                  <label for="luna6">Iunie</label>
+                  <input type="number" name="luna6" id="luna6" />
+                  <br />
+                  <label for="luna7">Iulie</label>
+                  <input type="number" name="luna7" id="luna7" />
+                  <br />
+                  <label for="luna8">August</label>
+                  <input type="number" name="luna8" id="luna8" />
+                  <br />
+                  <label for="luna9">Septembrie</label>
+                  <input type="number" name="luna9" id="luna9" />
+                  <br />
+                  <label for="luna10">Octombrie</label>
+                  <input type="number" name="luna10" id="luna10" />
+                  <br />
+                  <label for="luna11">Noiembrie</label>
+                  <input type="number" name="luna11" id="luna11" />
+                  <br />
+                  <label for="luna12">Decembrie</label>
+                  <input type="number" name="luna12" id="luna12" />
+                </div>
+              </td>
+              <td>
+                <div class="cheltuieli">
+                  <h3>Cheltuieli</h3>
+                  <label for="luna1c">Ianuarie</label>
+                  <input type="number" name="luna1" id="luna1c" />
+                  <br />
+                  <label for="luna2c">Februarie</label>
+                  <input type="number" name="luna1" id="luna2c" />
+                  <br />
+                  <label for="luna3c">Martie</label>
+                  <input type="number" name="luna1" id="luna3c" />
+                  <br />
+                  <label for="luna4c">Aprilie</label>
+                  <input type="number" name="luna1" id="luna4c" />
+                  <br />
+                  <label for="luna5c">Mai</label>
+                  <input type="number" name="luna1" id="luna5c" />
+                  <br />
+                  <label for="luna6c">Iunie</label>
+                  <input type="number" name="luna1" id="luna6c" />
+                  <br />
+                  <label for="luna7c">Iulie</label>
+                  <input type="number" name="luna1" id="luna7c" />
+                  <br />
+                  <label for="luna8c">August</label>
+                  <input type="number" name="luna1" id="luna8c" />
+                  <br />
+                  <label for="luna9c">Septembrie</label>
+                  <input type="number" name="luna1" id="luna9c" />
+                  <br />
+                  <label for="luna10c">Octombrie</label>
+                  <input type="number" name="luna1" id="luna10c" />
+                  <br />
+                  <label for="luna11c">Noiembrie</label>
+                  <input type="number" name="luna1" id="luna11c" />
+                  <br />
+                  <label for="luna12c">Decembrie</label>
+                  <input type="number" name="luna1" id="luna12c" />
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div>
+            <canvas id="myChart" style="width: 10px"></canvas>
+          </div>
+          <button id="gata1">Gata</button>
+        </td>
+      </tr>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="statistic.js"></script>
+    <script>
+      const bugetulTau = document.getElementById("bugetulTau");
+      bugetulTau.addEventListener("click", function () {
+        window.location = "statistic.html";
+        bugetTitle.innerHTML = "Venituri si cheltuieli";
+      });
+      const economiGeneral = document.getElementById("economiGeneral");
+      economiGeneral.addEventListener("click", function () {
+        window.location = "cumFunctioneaza.html";
+      });
+    </script>
+  </body>
+</html>

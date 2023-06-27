@@ -1,0 +1,596 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-weight: bold;
+  color: #244564;
+  margin-left: 40px;
+}
+
+button {
+  color: #244564;
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+header {
+  padding-left: 30px;
+  padding-top: 5px;
+  background-color: white;
+  height: 80px;
+  margin-bottom: 0;
+}
+
+#pret {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  /*border: 2px solid #244564;
+  border-radius: 2px;*/
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -65px;
+  left: 200px;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+#pret:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+}
+
+#why {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -65px;
+  left: 200px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#why:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+}
+
+#how {
+  width: 110px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -75px;
+  left: 200px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#how:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+}
+
+#logIn {
+  width: 110px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 45%;
+  display: inline-block;
+  margin-left: 230px;
+  border: 2px solid #244564;
+  border-radius: 3px;
+}
+#logIn:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+}
+
+#incepe {
+  width: 180px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 70%;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 50px;
+  background-color: #cedd3e;
+  border: 2px solid #cedd3e;
+  border-radius: 3px;
+}
+#incepe:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+  background-color: #ddeb62;
+  border: 2px solid #ddeb62;
+}
+
+.topText {
+  color: #25384f;
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-size: 2.375rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+}
+.topText1 {
+  color: #25384f;
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-size: 2.375rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.prezentareGenerala {
+  background-color: #85c3e9;
+  height: 500px;
+  width: 100%;
+  padding-top: 20px;
+  width: 100%;
+}
+
+main {
+  display: block;
+}
+
+#incepe1 {
+  width: 250px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 70px;
+  left: 570px;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #cedd3e;
+  border: 2px solid #cedd3e;
+  border-radius: 3px;
+}
+#incepe1:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+  background-color: #ddeb62;
+  border: 2px solid #ddeb62;
+}
+
+img {
+  width: 500px;
+}
+
+h2,
+h3 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  color: #244564;
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+p,
+li {
+  font-size: inherit;
+  line-height: inherit;
+  margin-top: 1.125rem;
+}
+
+td {
+  text-align: center;
+}
+
+.table1 {
+  position: relative;
+  left: 15%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.dreaptaText {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#incepe2 {
+  width: 250px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #cedd3e;
+  border: 2px solid #cedd3e;
+  border-radius: 3px;
+}
+#incepe2:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+  background-color: #ddeb62;
+  border: 2px solid #ddeb62;
+}
+
+.prezentarePret {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 1440px;
+  padding: 2.75rem 2.5625rem 2.75rem 2.625rem;
+  background-color: #d8e9f7 !important;
+  text-align: center;
+}
+
+.pret1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#cumpara1 {
+  width: 250px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  margin-left: 0px;
+  background-color: #cedd3e;
+  border: 2px solid #cedd3e;
+  border-radius: 3px;
+}
+#cumpara1:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+  background-color: #ddeb62;
+  border: 2px solid #ddeb62;
+}
+
+.pret2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#cumpara2 {
+  width: 250px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  margin-left: 0px;
+  background-color: #cedd3e;
+  border: 2px solid #cedd3e;
+  border-radius: 3px;
+}
+#cumpara2:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+  background-color: #ddeb62;
+  border: 2px solid #ddeb62;
+}
+
+.table2 {
+  position: relative;
+  left: 27%;
+}
+
+.table3 {
+  position: relative;
+  left: 14%;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.why1 {
+  padding-right: 50px;
+}
+
+.table4 {
+  position: relative;
+  left: 16%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.prezentareJos {
+  background-color: #85c3e9;
+  height: 500px;
+  width: 100%;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.bottomText {
+  color: #25384f;
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.bottomImage {
+  position: relative;
+  left: 32%;
+  top: 10%;
+}
+
+#incepe3 {
+  width: 250px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 90px;
+  display: inline-block;
+  margin-left: 60px;
+  background-color: #cedd3e;
+  border: 2px solid #cedd3e;
+  border-radius: 3px;
+}
+#incepe3:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+  background-color: #ddeb62;
+  border: 2px solid #ddeb62;
+}
+
+footer {
+  background-color: #25384f;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.logIn {
+  width: 300px;
+
+  text-align: center;
+}
+
+#email {
+  position: relative;
+  padding: 12px;
+  width: 90%;
+}
+
+#password {
+  position: relative;
+  margin-top: 20px;
+  padding: 12px;
+  width: 90%;
+  left: 0px;
+}
+
+#logInButton {
+  position: relative;
+  top: 50px;
+  right: 0px;
+  background-color: #4495d7;
+  border: 0;
+  width: 100%;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 40px;
+  line-height: 1.0625rem;
+  margin: 0;
+  padding: 0 10px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#logInButton:hover {
+  background-color: #244564;
+  transition: 300ms;
+  color: white;
+}
+
+.tableLogIn {
+  position: relative;
+  top: 120px;
+  left: 25%;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #244564;
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.statisticMenu {
+  background-color: #25384f;
+  width: 300px;
+}
+
+#reports {
+  width: 295px;
+  height: 50px;
+  background-color: #25384f;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -220px;
+  border: 2px solid #25384f;
+  border-radius: 5px;
+  color: white;
+}
+
+#reports:hover {
+  background-color: #377499;
+  transition: 300ms;
+  color: white;
+}
+
+.logo1 {
+  font-family: Gilroy Heavy, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-left: 0px;
+  position: relative;
+  top: -240px;
+}
+
+#bugetulTau {
+  width: 295px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -220px;
+  border: 2px solid #244564;
+  border-radius: 5px;
+}
+#bugetulTau:hover {
+  background-color: #377499;
+  transition: 300ms;
+  color: white;
+}
+
+.tableStatistics {
+  height: 100%;
+  width: 100%;
+}
+
+#economiGeneral {
+  width: 295px;
+  height: 50px;
+  background-color: #25384f;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -220px;
+  border: 2px solid #25384f;
+  border-radius: 5px;
+  color: white;
+}
+#economiGeneral:hover {
+  background-color: #377499;
+  transition: 300ms;
+  color: white;
+}
+
+.statisticCentre {
+  width: 500px;
+}
+
+.topMeniu {
+  position: relative;
+  top: -10px;
+}
+
+input {
+  padding: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.venituri {
+  border: 1px solid rgb(96, 93, 93);
+  width: 300px;
+}
+
+.cheltuieli {
+  border: 1px solid rgb(96, 93, 93);
+  width: 300px;
+}
+
+.table-venituri-cheltuieli {
+  position: relative;
+  left: 20%;
+  padding-right: 80px;
+}
+
+#gata1 {
+  width: 295px;
+  height: 50px;
+  background-color: #25384f;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #25384f;
+  border-radius: 5px;
+  color: white;
+}
+#gata1:hover {
+  background-color: #377499;
+  transition: 300ms;
+  color: white;
+}
+
+.generalitati {
+  width: 200px;
+}
+
+canvas {
+  width: 100px;
+  height: 100px;
+}
+
+#myChart {
+  width: 200px;
+}
+
+.continut {
+  width: 600px;
+  position: relative;
+  margin: auto;
+  top: 70px;
+  height: 500px;
+  background-color: #244564;
+  color: white;
+}
